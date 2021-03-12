@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#@Scenario1"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 5132361600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforetest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Sky Blue BackGround",
+        "description": "",
+        "id": "change-the-colorpage;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 857675000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the changeTheColorPage",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_changeTheColorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDefinition.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3220417900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforetest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Sky White BackGround",
+        "description": "",
+        "id": "change-the-colorpage;sky-white-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "StepDefinition.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The background color will change to sky white",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_sky_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Change_The_ColorPage",
+    "description": "Change The Screen color",
+    "id": "change-the-colorpage",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]
